@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
   return view('welcome');
 })->middleware(['auth.shop'])->name('home');
 
+Route::get('/newdiscount', 'HomeController@getNewDiscountForm')->middleware(['auth.shop'])->name('home');

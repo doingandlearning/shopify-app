@@ -1,8 +1,7 @@
 @extends('shopify-app::layouts.default')
 
 @section('content')
-    <p>You are: {{ ShopifyApp::shop()->shopify_domain }}</p>
-
+    <h2>Welcome</h2>
 
 @endsection
 

@@ -173,6 +173,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
+        \OhMyBrew\ShopifyApp\ShopifyAppProvider::class,
         App\Providers\RouteServiceProvider::class,
 
         //Third party providers
@@ -230,6 +231,7 @@ return [
         // Laravelcollective
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'ShopifyApp' => OhMyBrew\ShopifyApp\Facades\ShopifyApp::class,
 
     ],
 
